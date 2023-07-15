@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicons-->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+  <script src="https://kit.fontawesome.com/5216200a77.js" crossorigin="anonymous"></script>
+
+  <link rel="icon" href="https://easy-data.mdbgo.io/img/favicon/favicon-32x32.png" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+  <!-- MDB UI KIT -->
+  <link rel="stylesheet" href="assets/css/mdb.min.css" />
+  <!-- Custom styles -->
+  <!-- GOOGLE WEB FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- linking bootstrap here -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link href="assets/css/career.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>Document</title>
+  <!-- Icon -->
+</head>
+
+<body style="overflow: visible !important; ">
+  <section class="header container-fluid">
+    <div class="row py-2 px-lg-5">
+      <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+        <div class="d-inline-flex align-items-center text-white">
+          <small><i class="fa fa-envelope mr-2"></i>contact@muenot.co.in</small>
+          <small class="px-3">|</small>
+          <small><i class="fa-solid fa-location-dot"></i> Jhunjhunu,Rajasthan</small>
+        </div>
+      </div>
+      <div class="col-lg-6 text-center text-lg-right">
+        <div class="d-inline-flex align-items-center">
+          <a class="text-white px-2"><i class="fab fa-facebook-f"></i></a>
+          <a class="text-white px-2"><i class="fab fa-twitter"></i></a>
+          <a class="text-white px-2"><i class="fab fa-linkedin-in"></i></a>
+          <a class="text-white px-2"><i class="fab fa-instagram"></i></a>
+          <a class="text-white pl-2"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="navigation container-fluid" id="navigation1">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5 justify-content-around">
+      <a href="index.html" class="navbar-logo ml-lg-3">
+        <img src="assets/img/Dream Education logo.jpg"></img>
+        <h1 class="display-5">Muenot</h1>
+      </a>
+      <h1 class="">Welcome To HR-Portal.</h1>
+      <a href="login.html" id="signout_btn" class="signin  btn btn-primary py-2 px-4 d-none d-lg-block">Sign Out</a>
+    </nav>
+  </section>
+  <!--Main Navigation-->
+  <!-- <header class="mb-10">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-2 fixed-top">
+      <div class="container-fluid justify-content-center justify-content-md-between">
+        <ul class="navbar-nav flex-row align-items-center">
+          <li class="nav-item me-3 me-lg-1">
+            <a class="nav-link d-flex" href="https://easy-data.mdbgo.io/" target="_blank">
+              <img src="https://easy-data.mdbgo.io/img/logo.png" height="31" alt="" loading="lazy" class="me-2" />
+              <span style="
+                    font-size: 19px;
+                    font-weight: 500;
+                    color: hsl(0, 0%, 30%);
+                  ">easy<span class="text-theme">Data</span></span>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-1">
+            <a class="nav-link" href="https://twitter.com/ascensus_mdb" rel="nofollow" target="_blank">
+              <span><i class="fab fa-twitter"></i></span>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-1">
+            <a class="nav-link" href="https://github.com/mdbootstrap/mdb-easydata" rel="nofollow" target="_blank">
+              <span><i class="fab fa-github"></i></span>
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav flex-row d-none d-md-flex">
+          <li class="nav-item me-3 me-lg-1">
+            <a class="nav-link d-flex" href="https://easy-data.mdbgo.io/#section-google-sheets" target="_blank">
+              <img src="https://easy-data.mdbgo.io/img/logo-gs.png" height="22" class="me-2" alt="" />
+              <span>Google Sheets example</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav flex-row d-none d-md-flex">
+          <li class="nav-item me-3 me-lg-1">
+            <a href="https://mdbootstrap.com/" target="_blank"
+              class="btn btn-primary btn-rounded mx-2 d-none d-lg-inline-block"><i class="fas fa-cubes me-2"></i>MDB UI
+              KIT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header> -->
+  <main>
+    <div class="container">
+      <div class="row d-flex mt-5">
+        <button id="my_btn_1" class="col-lg-6 btn btn-primary py-2 px-4 d-none d-lg-block">Display Employee Data </button>
+        <!-- <button id="my_btn_2" class="col-lg-4 btn btn-secondary py-2 px-4 d-none d-lg-block">Display Employee Data
+        </button> -->
+        <button id="my_btn" class="col-lg-6 btn btn-secondary py-2 px-4 d-none d-lg-block">New Applications
+        </button>
+      </div>
+    </div>
+
+
+    <!-- <div id="new_employee" class="container-fluid d-none">
+      <div class="row">
+        <div class=" Columnn col-lg-10 d-flex flex-column content-right">
+          <div class="container my-auto py-5">
+            <div class="row">
+              <div class="col-lg-9 col-xl-7 mx-auto">
+                <h2 class="mb-3">Careers at Muenot</h2>
+                <form class="input_style_1" method="post" name="career_form">
+                  <div class="form-group">
+                    <label class="labelx" for="full_name">Full Name</label>
+                    <input type="text" name="full_name" id="full_name" class="form-control" placeholder="Full Name">
+                  </div>
+                  <div class="form-group">
+                    <label class="labelx" for="email_address">Email Address</label>
+                    <input type="email" name="email_address" id="email_address" class="form-control"
+                      placeholder="xyz@gmail.com">
+                  </div>
+                  <div class="form-group">
+                    <label class="labelx" for="phone_number">Phone Number</label>
+                    <input type="phone" name="phone" id="phone_number" class="form-control"
+                      placeholder="Phone Number [Please make sure calling and Whatsapp both are available on this]">
+                  </div>
+                  <div class="form-group">
+                    <label class="labelx" for="exampleFormControlSelect1">Your Classifications</label>
+                    <select class="form-control" id="exampleFormControlSelect1" name="qualifications">
+                      <option>B.Tech</option>
+                      <option>B.Sc</option>
+                      <option>M.Sc</option>
+                      <option>M.Tech</option>
+                      <option>MBBS</option>
+                      <option>B.Com/BBA</option>
+                      <option>M.Com</option>
+                      <option>MBA</option>
+                      <option>BDS</option>
+                      <option>BEd/MEd</option>
+                      <option>BA</option>
+                      <option>MA</option>
+                      <option>BCA/MCA</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <div>
+                      <label class="labelx">Present Educational Situation for the qualification mentioned above.
+                      </label>
+                      <div class="col-sm-10">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" id="gridRadios1" value="First Year"
+                            name="present_situation">
+                          <label class="form-check-label" for="gridRadios1">
+                            First Year
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" id="gridRadios2" value="Second Year"
+                            name="present_situation">
+                          <label class="form-check-label" for="gridRadios2">
+                            Second Year
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" id="gridRadios2" value="Pre-Final Year"
+                            name="present_situation">
+                          <label class="form-check-label" for="gridRadios2">
+                            Pre-Final Year
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" id="gridRadios2" value="Final Year"
+                            name="present_situation">
+                          <label class="form-check-label" for="gridRadios2">
+                            Final Year
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" id="gridRadios2" value="Graduated"
+                            name="present_situation">
+                          <label class="form-check-label" for="gridRadios2">
+                            Graduated
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="form-group">
+                    <label class="labelx" for="phone_number">Which institution have you graduated/currently pursuing the
+                      qualification mentioned above?</label>
+                    <input type="text" name="Institute" id="phone_number" class="form-control"
+                      placeholder="Indian Institute of Technology">
+                  </div>
+                  <div class="form-group">
+                    <div>
+                      <label class="labelx">What is your Subject Matter Expertise?
+                      </label>
+                      <div class="col-sm-10">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="subject" id="gridRadios1"
+                            value="Mathematics">
+                          <label class="form-check-label" for="gridRadios1">
+                            Mathematics
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="subject" id="gridRadios2" value="Physics">
+                          <label class="form-check-label" for="gridRadios2">
+                            Physics
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="subject" id="gridRadios2"
+                            value="Chemistry">
+                          <label class="form-check-label" for="gridRadios2">
+                            Chemistry
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="subject" id="gridRadios2" value="Biology">
+                          <label class="form-check-label" for="gridRadios2">
+                            Biology
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="subject" id="gridRadios2"
+                            value="History/Civics">
+                          <label class="form-check-label" for="gridRadios2">
+                            History/Civics
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="subject" id="gridRadios2"
+                            value="Geography">
+                          <label class="form-check-label" for="gridRadios2">
+                            Geography
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="subject" id="gridRadios2"
+                            value="Economics">
+                          <label class="form-check-label" for="gridRadios2">
+                            Economics
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="subject" id="gridRadios2" value="English">
+                          <label class="form-check-label" for="gridRadios2">
+                            English
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="subject" id="gridRadios2" value="Accounts">
+                          <label class="form-check-label" for="gridRadios2">
+                            Accounts
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="subject" id="gridRadios2"
+                            value="Business Studies">
+                          <label class="form-check-label" for="gridRadios2">
+                            Business Studies
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="subject" id="gridRadios2" value="Nursing">
+                          <label class="form-check-label" for="gridRadios2">
+                            Nursing
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="subject" id="gridRadios2"
+                            value="HigherTech">
+                          <label class="form-check-label" for="gridRadios2">
+                            Higher Tech
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <div class="form-group">
+                    <div>
+                      <label class="labelx">What level of content are you comfortable with?
+                      </label>
+                      <div class="col-sm-10">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="level" id="gridRadios1" value="10th">
+                          <label class="form-check-label" for="gridRadios1">
+                            Upto 10th Class
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="level" id="gridRadios2" value="12th">
+                          <label class="form-check-label" for="gridRadios2">
+                            Upto 12th Class
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="level" id="gridRadios2" value="JEE/NEET">
+                          <label class="form-check-label" for="gridRadios2">
+                            Upto JEE/NEET
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="level" id="gridRadios2" value="UG">
+                          <label class="form-check-label" for="gridRadios2">
+                            UG
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="level" id="gridRadios2" value="PG">
+                          <label class="form-check-label" for="gridRadios2">
+                            PG
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <div class="col-sm-8 labelx">Do you have a laptop?</div>
+                    <div class="col-sm-4">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1" name="laptop" value="YES">
+                        <label class="form-check-label" for="gridCheck1">
+                          Yes I have.
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <div class="col-sm-8 labelx">Do you have Pen-Tablet?</div>
+                    <div class="col-sm-4">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1" name="pen/tablet" value="YES">
+                        <label class="form-check-label" for="gridCheck1">
+                          Yes I have.
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <div class="col-sm-8 labelx">Do you have an ipad and apple pencil?</div>
+                    <div class="col-sm-4">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1" name="ipad" value="YES">
+                        <label class="form-check-label" for="gridCheck1">
+                          Yes I have.
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <div class="col-sm-8 labelx">Will you be willing to undergo a 2-3 day training process and
+                      submitting samples before you are inducted into any of the opportunities at Muenot?</div>
+                    <div class="col-sm-4">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1" name="willingness" value="YES">
+                        <label class="form-check-label" for="gridCheck1">
+                          Yes I Will.
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                  <div class="form-group">
+                    <div>
+                      <label class="labelx">How many hours a day are you willing to work for Muenot?
+                      </label>
+                      <div class="col-sm-10">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="hours" id="gridRadios1" value="1-2">
+                          <label class="form-check-label" for="gridRadios1">
+                            1-2
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="hours" id="gridRadios2" value="3-4">
+                          <label class="form-check-label" for="gridRadios2">
+                            3-4
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="hours" id="gridRadios2" value="5-6">
+                          <label class="form-check-label" for="gridRadios2">
+                            5-6
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="hours" id="gridRadios2" value="7-8">
+                          <label class="form-check-label" for="gridRadios2">
+                            7-8
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <div class="form-group row">
+                    <div class="col-sm-8 labelx">Have you previously worked somewhere else?</div>
+                    <div class="col-sm-4">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1" name="previous_worked"
+                          value="YES">
+                        <label class="form-check-label" for="gridCheck1">
+                          Yes I have.
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <div class="form-group">
+                    <label class="labelx" for="message_field">If Yes, Where?</label>
+                    <textarea name="previous_company" id="message_field" class="form-control" style="height: 50px"
+                      placeholder="Type here..."></textarea>
+                  </div>
+
+
+                  <div class="form-group">
+                    <div>
+                      <label class="labelx">For which opportunity you want to apply to Muenot?
+                      </label>
+                      <div class="col-sm-10">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="applied_for" id="gridRadios1"
+                            value="Subject Matter Expert">
+                          <label class="form-check-label" for="gridRadios1">
+                            Subject Matter Expert</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="applied_for" id="gridRadios1"
+                            value="Educator">
+                          <label class="form-check-label" for="gridRadios1">
+                            Educator</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="applied_for" id="gridRadios1"
+                            value="Graphic Designer">
+                          <label class="form-check-label" for="gridRadios1">
+                            Graphic Designer</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="applied_for" id="gridRadios1"
+                            value="Translator">
+                          <label class="form-check-label" for="gridRadios1">
+                            Translator</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="applied_for" id="gridRadios1"
+                            value="Content Writer">
+                          <label class="form-check-label" for="gridRadios1">
+                            Content Writer</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="applied_for" id="gridRadios1"
+                            value="Animator">
+                          <label class="form-check-label" for="gridRadios1">
+                            Animator</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="applied_for" id="gridRadios1"
+                            value="Alt Text Writer">
+                          <label class="form-check-label" for="gridRadios1">
+                            Alt Text Writer </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="applied_for" id="gridRadios1"
+                            value="Quality Analyst">
+                          <label class="form-check-label" for="gridRadios1">
+                            Quality Analyst </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div>
+                      <label class="labelx">How did you know about us?
+                      </label>
+                      <div class="col-sm-10">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="about_us" id="gridRadios1"
+                            value="Internet">
+                          <label class="form-check-label" for="gridRadios1">
+                            Internet
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="about_us" id="gridRadios2" value="Youtube">
+                          <label class="form-check-label" for="gridRadios2">
+                            Youtube
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="about_us" id="gridRadios2" value="Website">
+                          <label class="form-check-label" for="gridRadios2">
+                            Website
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="about_us" id="gridRadios2" value="Friend">
+                          <label class="form-check-label" for="gridRadios2">
+                            Friend Reference
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn_1 full-width"
+                    onclick="document.getElementById('Thanks').style.display='block'">Submit</button>
+                  <div id="Thanks">
+                    <h6 class="text-center">Thanks for submitting!!</h6>
+                    <h6 class="text-center">Your Response have been submitted successfully</h4>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+   
+   
+   
+    <!-- Table -->
+    <div id="datasheet1" class="d-none mt-5">
+      <table class="table1">
+        <thead id="table-head1"></thead>
+        <tbody id="table-body1"></tbody>
+      </table>
+    </div>
+    <!-- Table -->
+    <div id="datasheet2" class="d-none mt-5">
+      <table class="table2">
+        <thead id="table-head2"></thead>
+        <tbody id="table-body2"></tbody>
+      </table>
+    </div>
+    <!-- Table -->
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <section class="footer container-fluid bg-dark mt-5 py-5 px-sm-3 px-md-5">
+    <div class="row pt-5">
+      <div class="col-lg-7 col-md-6">
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <h3 class="text-primary mb-4">Get In Touch</h3>
+            <p>
+              <i class="fa fa-map-marker-alt mr-2"></i>Jhunjhunu,Rajasthan
+            </p>
+            <p><i class="fa fa-phone-alt mr-2"></i>(91) 8277997682</p>
+            <p><i class="fa fa-envelope mr-2"></i>contact@muenot.co.in </p>
+            <div class="d-flex justify-content-start mt-4">
+              <a class="btn btn-outline-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-outline-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-outline-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-5">
+            <h3 class="text-primary mb-4">Quick Links</h3>
+            <div class="d-flex flex-column justify-content-start">
+              <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
+              <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+              <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Career</a>
+              <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Blog</a>
+              <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-6 mb-5">
+        <h3 class="text-primary mb-4">Newsletter</h3>
+        <p>
+          Subscribe our Newletter & get updates in inbox.
+        </p>
+        <div class="w-100">
+          <div class="input-group">
+            <input type="text" class="form-control border-light" style="padding: 30px"
+              placeholder="Your Email Address" />
+            <div class="input-group-append">
+              <button class="btn btn-primary px-4">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5"
+      style="border-color: #3e3e4e !important">
+      <div class="row">
+        <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
+          <p class="m-0 text-white">
+            &copy;
+            <a href="#">Since 2020</a>. All Rights Reserved. Designed by
+            <a target="_blank" rel="nofollow noopener" href="#">Muenot</a>
+          </p>
+        </div>
+        <div class="col-lg-6 text-center text-md-right">
+          <ul class="nav d-inline-flex">
+            <li class="nav-item">
+              <a class="nav-link text-white py-0" href="#">Privacy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white py-0" href="#">Terms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white py-0" href="#">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white py-0" href="#">Help</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+  </section>
+  <!--Footer-->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/easing.min.js"></script>
+  <script src="assets/js/waypoints.min.js"></script>
+  <script src="assets/js/counterup.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+    import { getAuth, signOut } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyAD9vHdNxDShdtaeUUlSzvGFvZM-JaaCg0",
+      authDomain: "login-signup-7ba8d.firebaseapp.com",
+      projectId: "login-signup-7ba8d",
+      storageBucket: "login-signup-7ba8d.appspot.com",
+      messagingSenderId: "133426994459",
+      appId: "1:133426994459:web:70db6d4e9ee9988607c7be"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth();
+
+
+
+    document.getElementById("signout_btn").addEventListener('click', function () {
+
+      signOut(auth).then(() => {
+        // signout
+      }).catch((error) => {
+        alert("Error occured");
+      });
+
+    });
+  </script>
+
+
+</body>
+
+<!-- MDB ESSENTIAL -->
+<script type="text/javascript" src="assets/js/mdb.min.js"></script>
+<!-- Google API -->
+<script src="https://apis.google.com/js/api.js"></script>
+<!-- -->
+<script type="text/javascript" src="assets/js/easyData-google-sheets.js"></script>
+
+<!-- - Creating table -->
+<script>
+  {
+    {
+      // Your API KEY
+      const API_KEY = "AIzaSyC5Z2B9DpmNwfc4otpw4nz7Dauk2-dfmFQ";
+
+      function displayResult2(response) {
+        let tableHead = "";
+        let tableBody = "";
+
+        response.result.values.forEach((row, index) => {
+          if (index === 0) {
+            tableHead += "<tr>";
+            row.forEach((val) => (tableHead += "<th>" + val + "</th>"));
+            tableHead += "</tr>";
+          } else {
+            tableBody += "<tr>";
+            row.forEach((val) => (tableBody += "<td>" + val + "</td>"));
+            tableBody += "</tr>";
+          }
+        });
+
+        document.getElementById("table-head2").innerHTML = tableHead;
+        document.getElementById("table-body2").innerHTML = tableBody;
+      }
+      function displayResult1(response) {
+        let tableHead = "";
+        let tableBody = "";
+
+        response.result.values.forEach((row, index) => {
+          if (index === 0) {
+            tableHead += "<tr>";
+            row.forEach((val) => (tableHead += "<th>" + val + "</th>"));
+            tableHead += "</tr>";
+          } else {
+            tableBody += "<tr>";
+            row.forEach((val) => (tableBody += "<td>" + val + "</td>"));
+            tableBody += "</tr>";
+          }
+        });
+
+        document.getElementById("table-head1").innerHTML = tableHead;
+        document.getElementById("table-body1").innerHTML = tableBody;
+      }
+
+      function loadData1() {
+        // Spreadsheet ID
+        const spreadsheetId = "1cnXt8NwOAo9v8YAaN6Ck03SZZpt1x6e4ijw1-YwFg-k";
+        const range = "1:99";
+        getPublicValues({ spreadsheetId, range }, displayResult1);
+      }
+      function loadData2() {
+        // Spreadsheet ID
+        const spreadsheetId = "1UvNbNGfbRS_Wa-t-PLWxuFbZu1Rp7-POGcqx2cdFAXY";
+        const range = "1:99";
+        getPublicValues({ spreadsheetId, range }, displayResult2);
+      }
+
+      window.addEventListener("load", (e) => {
+        initOAuthClient({ apiKey: API_KEY });
+      });
+
+      document.getElementById("my_btn").addEventListener("click", (e) => {
+        loadData1();
+        var elem = document.getElementById("datasheet2");
+        elem.classList.add("d-none");
+        var elem = document.getElementById("datasheet1");
+        elem.classList.remove("d-none");
+        document.getElementById("my_btn").classList.remove("btn-secondary");
+        document.getElementById("my_btn").classList.add("btn-primary");
+        document.getElementById("my_btn_1").classList.remove("btn-primary");
+        document.getElementById("my_btn_1").classList.add("btn-secondary");
+      });
+
+      document.getElementById("my_btn_1").addEventListener("click", function () {
+        loadData2();
+        var elem = document.getElementById("datasheet2");
+        elem.classList.remove("d-none");
+        var elem = document.getElementById("datasheet1");
+        elem.classList.add("d-none");
+        document.getElementById("my_btn").classList.remove("btn-primary");
+        document.getElementById("my_btn").classList.add("btn-secondary");
+        document.getElementById("my_btn_1").classList.remove("btn-secondary");
+        document.getElementById("my_btn_1").classList.add("btn-primary");
+      })
+    }
+  }
+</script>
+
+</html>
